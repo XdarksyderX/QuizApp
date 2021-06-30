@@ -1,0 +1,19 @@
+$main-red: rgb(248, 101, 101);
+$main-blue: rgb(94, 204, 248);
+$main-green: rgb(1, 146, 33);
+
+.hits-tracker {
+  font-family: Pacifico;
+  display: flex;
+  width: 7em;
+  height: 4em;
+  justify-content: center;
+  align-items: center;
+  border: white 1px solid;
+  border-radius: 10px; 
+  background-color: $main-red;
+  span {
+    color: white;
+    font-size: 1.25em;
+  }
+};

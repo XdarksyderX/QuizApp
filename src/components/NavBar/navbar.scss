@@ -1,0 +1,80 @@
+$regular-color: #5eccf8;
+
+.navbar {
+    background-color: $regular-color;
+    padding: 1rem;
+
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(10, 10fr);
+        align-items: center;
+        
+        
+        .navlink {
+            
+            display: flex;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            text-decoration: none;
+            margin: 0;
+
+
+            img {
+                width: 3rem;
+                border-radius: 50%;
+            }
+
+        }
+
+        span {
+            font-family: Pacifico;
+            grid-column: 7/9;
+            font-size: 1.5rem;
+            text-align: center;
+            margin-right: 10px;
+            color: white;
+        }
+
+        button {
+            grid-column: 9/-1;
+            height: 3rem;
+            background-color: #0030b6;
+            outline: none;
+            border: none;
+            border-radius: 15px;
+            color: white;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            transition: 0.4s;
+            width: 100%;
+            &:hover {
+                background-color: lighten($color:#0030b6, $amount:10);
+                transition: 0.4s;
+                cursor: pointer;
+            }
+        }
+
+    }
+
+}
+
+
+
+ @media only screen and (max-width: 600px) {
+
+ }
+/*
+ movil
+ @media only screen and (min-width: 600px) {...}
+ 
+ tablet
+ @media only screen and (min-width: 768px) {...}
+ 
+ 
+ @media only screen and (min-width: 992px) {...}
+ 
+ 
+ @media only screen and (min-width: 1200px) {...} 
+ */

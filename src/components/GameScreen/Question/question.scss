@@ -1,0 +1,46 @@
+@import '../../../scss/base/variables';
+
+.question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+        color: $main-blue;
+        text-align: center;
+        font-size: 2rem;
+        margin: 30px auto;
+        font-family: Helvetica;
+        border: 2px $main-blue solid;
+        padding: 2%;
+        border-radius: 15px;
+        
+    }
+    .answer-list {
+        width: 80%;
+    }
+
+    .info {
+        margin-top: 0.25rem;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        .hits-tracker {
+            width: 25%;
+            margin-right: 0.5rem;
+        }
+    }
+
+    
+};
+
+
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $main-blue;
+    font-size: 3rem;
+    font-family: Pacifico;
+}

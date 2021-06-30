@@ -1,0 +1,17 @@
+@import '../../../scss/base/variables';
+
+.timer {
+    font-family: Pacifico;
+    font-size: 2rem;
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    background-color: $main-red;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    span {
+      margin-bottom: 10px;
+    }
+  }
